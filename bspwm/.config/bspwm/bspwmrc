@@ -29,6 +29,7 @@ bspc rule -a plasma sticky=on layer=above state=floating
 #bspc rule -a latte-dock sticky=on layer=above state=floating
 #bspc rule -a lattedock sticky=on layer=above state=floating
 bspc rule -a yakuake sticky=on layer=above state=floating
+#bspc rule -a jetbrains-idea state=floating
 for p in {single,borderless}_monocle; do bspc config "$p" true; done
 
 sxhkd -c ~/.config/sxhkd/sxhkdrc &
