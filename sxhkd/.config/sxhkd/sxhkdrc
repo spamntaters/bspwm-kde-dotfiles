@@ -5,7 +5,9 @@
 # terminal emulator
 super + Return
 	konsole
-
+# file manager
+super + shift + Return
+        konsole -e ranger
 # program launcher
 super + @space
 	dmenu_run
