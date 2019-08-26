@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 
     Plug 'vim-pandoc/vim-pandoc'
     Plug 'vim-pandoc/vim-pandoc-syntax'
+    Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 
 call plug#end()
 
@@ -22,3 +23,5 @@ set shiftwidth=4
 set smartindent
 set smarttab
 set softtabstop=4
+
+filetype plugin on
